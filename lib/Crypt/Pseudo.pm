@@ -18,7 +18,6 @@ use version; our $VERSION = qv(0.9.0);
 
 # http://blog.kevburnsjr.com/php-unique-hash
 
-use Readonly;
 use bigint;
 use Tie::IxHash;
 use Math::Base::Convert qw(dec b62);
