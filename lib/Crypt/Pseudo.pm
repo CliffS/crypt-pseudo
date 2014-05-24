@@ -52,7 +52,7 @@ sub unhash($)
     my $mmi = $mmiprimes[$len];
     my $num = $self->{unbase}->cnv($hash);
     my $dec = ($num * $mmi) % $ceil;
-    return $dec;
+    return $dec->numify;
 }
 
 sub new
